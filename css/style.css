@@ -90,6 +90,9 @@ span {
   letter-spacing: 0.02em;
 }
 
+.studio-link:focus {
+  color: #404BBF;
+}
 
 .list-portfolio {
   color: #2E2F42;

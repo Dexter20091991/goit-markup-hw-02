@@ -54,6 +54,15 @@ span {
   letter-spacing: 0.02em;
 }
 
+.list-studio:active {
+  color: #404BBF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .studio-link {
   color: #2E2F42;
   font-family: Roboto;
@@ -118,6 +127,15 @@ span {
   letter-spacing: 0.02em;
 }
 
+.list-contacts:hover {
+  color: #404BBF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .contacts-link {
   color: #2E2F42;
   font-family: Roboto;
@@ -142,6 +160,7 @@ span {
 .contacts {
   background-color: #FFFFFF;
   color: #434455;
+  font-style: normal;
 }
 
 .contacts-list {

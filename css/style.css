@@ -12,7 +12,7 @@ ul {
   list-style-type: none;
 }
 
-/*Header*/
+/*HEADER*/
 /*Logo*/
 .logo {
   color: #4d5ae5;
@@ -45,7 +45,25 @@ span {
   letter-spacing: 0.02em;
 }
 
-.menu-list:hover {
+.list-studio {
+  color: #2E2F42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.studio-link {
+  color: #2E2F42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.studio-link:hover {
   color: #404BBF;
   font-family: Roboto;
   font-size: 16px;
@@ -63,12 +81,82 @@ span {
   letter-spacing: 0.02em;
 }
 
-/*contacts*/
-.contacts {
-  color: var(--SLATE, #434455);
+
+.list-portfolio {
+  color: #2E2F42;
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-link {
+  color: #2E2F42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-link:hover {
+  color: #404BBF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.list-contacts {
+  color: #2E2F42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts-link {
+  color: #2E2F42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts-link:hover {
+  color: #404BBF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+
+
+/*contacts*/
+.contacts {
+  background-color: #FFFFFF;
+  color: #434455;
+}
+
+.contacts-list {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.list-email {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -84,6 +172,25 @@ span {
   letter-spacing: 0.02em;
 }
 
+.email-link:hover {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.number-list {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .number-link {
   color: #434455;
   font-family: Roboto;
@@ -94,44 +201,18 @@ span {
   letter-spacing: 0.02em;
 }
 
-
-
-.menu-list:hover {
-  color: #404bbf;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.studio-link:active {
-  color: #404bbf;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.contacts {
+.number-link:hover {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
+  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.contacts:hover {
-  color: #404bbf;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
 
+/*HERO SECTION*/
 .hero-section {
   background-color: #2e2f42;
 }
@@ -202,12 +283,13 @@ p {
 
 /* section of our portfolio*/
 .portfolio-content {
-  background: #FFF;
+  background: #FFFFFF;
 }
 
 h2 {
   color: #2E2F42;
   font-family: Roboto;
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;

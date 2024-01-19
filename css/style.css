@@ -247,6 +247,7 @@ span {
   letter-spacing: 0.02em;
 }
 
+/*BUTTON*/
 .button {
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -258,14 +259,10 @@ span {
   cursor: pointer;
 }
 
-.button:active {
+.button:hover:active {
   background-color: #404BBF;
 }
 
-.button:hover {
-  background-color: ;
-  #404BBF
-}
 
 h3 {
   color: #2E2F42;

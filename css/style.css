@@ -228,6 +228,7 @@ ul.list-our-team li {
 /*PORTFOLIO CONTENT*/
 .portfolio-content {
   font-family: "Roboto", sans-serif;
+
 }
 
 .title-of-portfolio {
@@ -242,11 +243,6 @@ ul.list-our-team li {
   text-transform: capitalize;
 }
 
-.row-first {}
-
-.banking-app {}
-
-.portfolio-image {}
 
 .portfolio-title {
   color: #2E2F42;
@@ -267,18 +263,6 @@ ul.list-our-team li {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-.cashless-payment {}
-
-.meditation-app {}
-
-.row-second {}
-
-.taxi-service {}
-
-.screen-illustrations {}
-
-.online-courses {}
 
 
 /*FOOTER*/

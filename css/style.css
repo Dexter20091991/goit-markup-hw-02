@@ -52,15 +52,9 @@ span {
   color: #404BBF;
 }
 
-.menu-link .link-studio:active {
+.menu-list li:first-child:focus:active {
   color: #404BBF;
 }
-
-.menu-list li:first-child:focus {
-  color: #404BBF;
-}
-
-
 
 /*contacts*/
 .contacts {
@@ -88,7 +82,7 @@ span {
   color: #404BBF;
 }
 
-.contacts-list li:first-child:focus {
+.contacts-list li:first-child:focus:active {
   color: #404BBF;
 }
 

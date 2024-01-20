@@ -35,202 +35,56 @@ span {
   text-transform: uppercase;
 }
 
-/*menu navigation */
-.menu-list {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+/*menu list */
 
-.list-studio {
+.menu-link {
   color: #2E2F42;
-  font-family: Roboto;
+  background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.list-studio:active {
-  color: #404BBF;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.studio-link {
-  color: #2E2F42;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.studio-link:hover {
-  color: #404BBF;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.studio-link:active {
-  color: #404BBF;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.studio-link:focus {
+.menu-link:hover {
   color: #404BBF;
 }
 
-.list-portfolio {
-  color: #2E2F42;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.portfolio-link {
-  color: #2E2F42;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.portfolio-link:hover {
+.menu-link .link-studio:active {
   color: #404BBF;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
-.list-contacts {
-  color: #2E2F42;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.menu-list li:first-child:active {
+  background-color: #404BBF;
 }
 
-.list-contacts:hover {
-  color: #404BBF;
-  font-family: Roboto;
+
+/*contacts*/
+.contacts {
+  color: #434455;
+  background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-style: normal;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .contacts-link {
-  color: #2E2F42;
-  font-family: Roboto;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-style: normal;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .contacts-link:hover {
   color: #404BBF;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-
-
-/*contacts*/
-.contacts {
-  background-color: #FFFFFF;
-  color: #434455;
-  font-style: normal;
-}
-
-.contacts-list {
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.list-email {
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.email-link {
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.email-link:hover {
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.number-list {
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.number-link {
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.number-link:hover {
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 

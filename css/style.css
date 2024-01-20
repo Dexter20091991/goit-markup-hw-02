@@ -56,10 +56,6 @@ span {
   color: #404BBF;
 }
 
-.menu-list li:first-child:active {
-  background-color: #404BBF;
-}
-
 .menu-list li:first-child:focus {
   color: #404BBF;
 }
@@ -88,7 +84,7 @@ span {
   letter-spacing: 0.02em;
 }
 
-.contacts-link:hover {
+.contacts-list li:first-child:focus {
   color: #404BBF;
 }
 
